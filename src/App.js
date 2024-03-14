@@ -14,6 +14,16 @@ import Twelve from './Twelve';
 import Thirteen from './Thirteen';
 import Forteen from './Forteen';
 import Fifteen from './Fifteen';
+import Sixteen from './Sixteen';
+import Seventeen from './Seventeen';
+import Eighteen from './Eighteen';
+import Nineteen from './Nineteen';
+import { ThemeProvider } from './ThemeContext';
+import NineteenComp from './NineteenComp';
+import Twenty from './Twenty';
+import { CartProvider } from './CartContext';
+import Twentyone from './Twentyone';
+
 
 
  const items = ['Item 1','Item 2','Item 3','Another Item','Another Item 2'];
@@ -49,9 +59,27 @@ export default function App() {
 
      {/* <Forteen /> */}
 
-       <Fifteen items={items}/>
+       {/* <Fifteen items={items}/> */}
+      
+       {/* <Sixteen items={items} itemsPerPage={2}/> */}
 
-     
+       {/* <Seventeen />*/}
+
+       {/* <Eighteen /> */}
+{/* 
+      //  <ThemeProvider>
+      //   <div className='App'>
+      //   <Nineteen/>
+      // <NineteenComp/>
+      //   </div>
+      // </ThemeProvider> */}
+
+     {/* <CartProvider>
+      <Twenty/>
+      </CartProvider> */}
+
+      <Twentyone />
+      
 
     </div>
   )
